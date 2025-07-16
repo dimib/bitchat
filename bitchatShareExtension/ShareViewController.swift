@@ -15,7 +15,7 @@ class ShareViewController: SLComposeServiceViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Set placeholder text
-        placeholder = "Share to bitchat..."
+        placeholder = "Share to bit-chat..."
         // Set character limit (optional)
         charactersRemaining = 500
     }

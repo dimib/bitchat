@@ -134,7 +134,7 @@ class ChatViewModel: ObservableObject {
             if self.connectedPeers.isEmpty && self.messages.isEmpty {
                 let welcomeMessage = BitchatMessage(
                     sender: "system",
-                    content: "get people around you to download bitchat…and chat with them here!",
+                    content: "get people around you to download bit-chat…and chat with them here!",
                     timestamp: Date(),
                     isRelay: false
                 )
@@ -2110,7 +2110,7 @@ class ChatViewModel: ObservableObject {
             let content = AttributedString("* \(message.content) *")
             var contentStyle = AttributeContainer()
             // Check for welcome message
-            if message.content.contains("get people around you to download bitchat") {
+            if message.content.contains("get people around you to download bit-chat") {
                 contentStyle.foregroundColor = Color.blue
             } else {
                 contentStyle.foregroundColor = Color.gray

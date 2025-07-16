@@ -184,7 +184,7 @@
 		763E0DBA9492A654FC0CDCB9 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
 		7A079981F6F0DE24398E326F /* NoiseRateLimiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseRateLimiterTests.swift; sourceTree = "<group>"; };
 		8DE9CDF66D4E52D268851048 /* MessagePaddingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePaddingTests.swift; sourceTree = "<group>"; };
-		8F3A7C058C2C8E1A06C8CF8B /* bitchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3A7C058C2C8E1A06C8CF8B /* bit-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bit-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9195CDC7EB236AFBC9A4D41A /* FingerprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerprintView.swift; sourceTree = "<group>"; };
 		95F16C3A4A5621C74461D8D3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D0D41CA19EE5A772AA8434 /* bitchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -289,7 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				96D0D41CA19EE5A772AA8434 /* bitchat.app */,
-				8F3A7C058C2C8E1A06C8CF8B /* bitchat.app */,
+				8F3A7C058C2C8E1A06C8CF8B /* bit-chat.app */,
 				61F92EBA29C47C0FCC482F1F /* bitchatShareExtension.appex */,
 				C0DB1DE27F0AAB5092663E8E /* bitchatTests_iOS.xctest */,
 				03C57F452B55FD0FD8F51421 /* bitchatTests_macOS.xctest */,
@@ -396,7 +396,7 @@
 			packageProductDependencies = (
 			);
 			productName = bitchat_macOS;
-			productReference = 8F3A7C058C2C8E1A06C8CF8B /* bitchat.app */;
+			productReference = 8F3A7C058C2C8E1A06C8CF8B /* bit-chat.app */;
 			productType = "com.apple.product-type.application";
 		};
 		47FF23248747DD7CB666CB91 /* bitchatTests_macOS */ = {
@@ -804,7 +804,7 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_CFBundleDisplayName = "bit-chat";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -856,7 +856,7 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_CFBundleDisplayName = "bit-chat";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -885,7 +885,7 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_CFBundleDisplayName = "bit-chat";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -893,7 +893,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.postpunk.chat.bitchat;
-				PRODUCT_NAME = bitchat;
+				PRODUCT_NAME = "bit-chat";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -971,7 +971,7 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_CFBundleDisplayName = "bit-chat";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -979,7 +979,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.postpunk.chat.bitchat;
-				PRODUCT_NAME = bitchat;
+				PRODUCT_NAME = "bit-chat";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
