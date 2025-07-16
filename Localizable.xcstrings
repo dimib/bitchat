@@ -138,7 +138,7 @@
     "battery: adaptive scanning based on level" : {
 
     },
-    "bitchat*" : {
+    "bitchat_title" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {

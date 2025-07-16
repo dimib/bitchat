@@ -777,6 +777,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				INFOPLIST_FILE = bitchatShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -803,7 +804,8 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "bit chat";
+				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -854,7 +856,8 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "bit chat";
+				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -882,7 +885,8 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "bit chat";
+				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -967,7 +971,8 @@
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "bit chat";
+				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1056,6 +1061,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTZK275Q2;
 				INFOPLIST_FILE = bitchatShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "chat*";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
